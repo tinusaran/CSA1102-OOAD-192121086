@@ -1,0 +1,123 @@
+
+#ifndef DELETE_H
+#define DELETE_H
+
+#include <string>
+
+/**
+  * class Delete
+  * 
+  */
+
+class Delete
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  Delete ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~Delete ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+
+  /**
+   */
+  void delete_client ()
+  {
+  }
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  82XPzdqH0NBv Client_Name;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of Client_Name
+   * @param new_var the new value of Client_Name
+   */
+  void setClient_Name (82XPzdqH0NBv new_var)   {
+      Client_Name = new_var;
+  }
+
+  /**
+   * Get the value of Client_Name
+   * @return the value of Client_Name
+   */
+  82XPzdqH0NBv getClient_Name ()   {
+    return Client_Name;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // DELETE_H
